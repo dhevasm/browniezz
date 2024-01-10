@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title & icon -->
+    <title>Browniezzrpl2.com</title>
+    <link rel="icon" href="assets/icon.png">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- connection -->
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
+
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbar-container">
+        <div class="navbar-brand">
+            <h1>Browniezz</h1>
+        </div>
+        <div class="navbar-navigation">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#product">product</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+        <div class="navbar-hamburger">
+            <i data-feather="search" class="icon"></i>
+            <i data-feather="menu" class="icon burger"></i>
+            
+        </div>
+    </div>
+
+    <!-- dropdown -->
+    <div class="navbar-dropdown">
+        <ul class="navbar-dropdown-menu">
+            <i data-feather="x" class="icon close"></i>
+            <div class="garis"></div>
+            <li><a href="#home" class="close-dd">home</a></li>
+            <li><a href="#product" class="close-dd">product</a></li>
+            <li><a href="#about" class="close-dd">about</a></li>
+            <li><a href="#contact" class="close-dd">contact</a></li>
+            <br><br>
+            <div class="garis"></div>
+        </ul>
+    </div>
+
+    <!-- landing -->
+    <div class="landing-background">
+      
+    </div>
+
+    <!-- slides -->
+    <div id="home">
+        <div class="landing-main">
+            <h1 class="remove-text">BROWNIES SEHAT</h1>
+            <p class="remove-text">cocok dimakan bersama teman dan keluarga</p>
+           </div>
+           <div class="landing-scroll">
+            <p>Scoll down</p>
+            <h1>v</h1>
+           </div>
+    </div>
+    <div id="product">
+        <h1>OUR PRODUCT</h1>
+        <div class="flex">
+            <div class="card" data-aos="fade-up"
+            data-aos-duration="1000">
+                <img src="assets/icon.png" alt="fotoproduk">
+                <h3>BROWNIS SEHAT</h3>
+                <button>ORDER NOW</button>
+            </div>
+            <div class="card" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-delay="300">
+                <img src="assets/icon.png" alt="fotoproduk">
+                <h3>BROWNIS SAKIT</h3>
+                <button>ORDER NOW</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div id="about">
+        <h1>ABOUT BROWNIEZZ</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur
+             adipisicing elit. Cumque est similique, 
+             doloribus iste temporibus excepturi dolor.
+              Architecto facilis at aliquid laborum 
+              provident quaerat fugit mollitia, et, 
+              illum iusto laboriosam ipsam!
+        </p>
+    </div>
+
+    <!-- contact -->
+    <div id="contact">
+        <div class="flex" style="align-items: center;"> 
+            <div class="contact-adress" style="display: flex; flex-direction: column; gap: 20px;">
+                <center><h1>Browniezz</h1></center>
+                <div style="display: flex; align-items: center; gap: 5px;">
+                    <i data-feather="mail" ></i>
+                    <p style="display: inline;">brownizz123@brownizz.com</p>
+                </div>
+                <div style="display: flex; align-items: center; gap: 5px;">
+                    <i data-feather="phone" ></i>
+                    <p style="display: inline;">+62 999-999-9999</p>
+                </div>
+                <div style="display: flex; align-items: center; gap: 5px;">
+                    <i data-feather="map-pin" ></i>
+                    <p style="display: inline;">Jl. kampung browniez no.99 Surabaya</p>
+                </div>
+                
+            </div>
+            <div class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Example123@gmail.com">
+                <label for="phonenumber">Phone Number</label>
+                <input type="phonenumber" id="phonenumber" name="phonenumber" required placeholder="+62 999-999-9999">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer">
+        <div class="sosmed">
+            <i data-feather="facebook"></i>
+            <i data-feather="instagram"></i>
+            <i data-feather="github"></i>
+            <i data-feather="linkedin"></i>
+        </div>
+        <div class="footer-navigasi">
+            <li><a href="#home">home</a></li> |
+            <li><a href="#product">product</a></li> |
+            <li><a href="#about">about</a></li> | 
+            <li><a href="#contact">contact</a></li>
+        </div>
+        <div class="credits">
+            <p>Was created by kelompok brownis 11 rpl 2 | © 2024</p>
+        </div>
+    </div>
+
+    <script>
+        feather.replace();
+        AOS.init();
+    </script>
+</body>
+</html>
